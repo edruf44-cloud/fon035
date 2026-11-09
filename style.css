@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F3E8FF;
+    color: #333;
+}
+
+/* ส่วนหัว */
+header {
+    background: linear-gradient(90deg, #9333EA, #EC4899);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* เมนู */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    background-color: #9333EA;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #EC4899;
+}
+
+/* เนื้อหา */
+.content {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #0002;
+}
+
+.content h2 {
+    color: #9333EA;
+    text-align: center;
+}
+
+.content h3 {
+    color: #DB2777;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.content ul,
+.content ol {
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* รูปภาพ */
+.content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* ส่วนท้าย */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
